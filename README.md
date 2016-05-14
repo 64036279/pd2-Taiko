@@ -1,1 +1,6 @@
-pd2-Taiko
+1.how to play
+打開QT，點選begin，就會出現開始介面，點Start則開始Exit則結束，以J消紅鼓、K鍵消藍鼓，若遇到藍橢圓按K鍵的話則扣兩分，30秒後跳出對話框詢問是否繼續，點Restart重新End則結束遊戲。
+
+2.program architecture
+剛開始建立一個start的class，進入mainWinow後再ui新增紅鼓和藍鼓和一個藍橢圓，並利用movered和movered設定初始位置，在每隔30毫秒呼叫nextblue和nextred，來控制每次移動的座標。倒數部分，starttime用每1000毫秒呼叫countdown，並在countdown裡設定呼叫Class dialog。消鼓則利用keyPressEvent，設定當X坐在0到50區間時按下J或K時即可消，並統計分數，消掉後所有X座標往右移。
+
