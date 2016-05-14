@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/women">
+        <file>dancer_2a3.png</file>
+    </qresource>
+</RCC>
