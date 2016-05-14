@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/red">
+        <file>mtaiko.png</file>
+    </qresource>
+</RCC>

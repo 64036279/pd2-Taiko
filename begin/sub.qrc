@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/sub">
+        <file>dancer_2a2.png</file>
+    </qresource>
+</RCC>
